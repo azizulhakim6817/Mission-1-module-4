@@ -17,4 +17,4 @@ The `keyof` keyword is used to get the property names of a given type as a union
 
 ---
 
-These features of TypeScript help create robust, scalable applications with fewer bugs and clearer intent.
+
