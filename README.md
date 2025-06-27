@@ -1,12 +1,14 @@
-📘 1. Interface vs Type — What’s the Difference?
+### 📘 1. Interface vs Type — What’s the Difference?
 
 In TypeScript, we use both interface and type to define the structure of objects. While they are often similar, there are some key differences.
 
-✅ Interface :
-Used to define object structures.
-Can be extended using extends.
-Can be declared multiple times and will merge.
+### ✅ Interface
 
+- Used to define object structures.
+- Can be extended using `extends`.
+- Can be declared multiple times — **and those declarations will merge.**
+
+```ts
 interface Person {
   name: string;
   age: number;
@@ -16,7 +18,7 @@ interface Person {
   gender: string;
 }
 
-// ✅ Now Person includes name, age, and gender
+// ✅ Now `Person` includes: name, age, gender
 
 
 ✅ Type : 
